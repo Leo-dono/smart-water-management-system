@@ -71,12 +71,11 @@ Install via Arduino Library Manager or PlatformIO:
 - Adjust OneWire bus pin in code
 - Calibrate pH sensor with pH 7 buffer, set calibration constant in code
 - GSM module requires dedicated regulator (2A bursts)
-- Never commit SIM or WiFi credentials — use `config.h`
 
 ---
 
 ## Build & upload
-1. Install Arduino IDE or PlatformIO  
+1. Install Arduino IDE 
 2. Install listed libraries  
 3. Open `firmware/capstonefinalcode.ino`, set board to Arduino Mega, select COM port  
 4. Compile & upload  
@@ -101,12 +100,6 @@ swms/
 ├─ examples/
 └─ CONTRIBUTING.md
 ```
-
----
-
-## Security & privacy
-- Replace phone numbers, SIM credentials, WiFi passwords with placeholders  
-- Add `config.example.h` and `.gitignore` the real `config.h`  
 
 ---
 
