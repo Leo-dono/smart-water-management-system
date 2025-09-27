@@ -1,0 +1,12 @@
+# Arduino / PlatformIO
+*.log
+*.elf
+*.hex
+*.bin
+/.pio/
+/build/
+/.vscode/
+/.idea/
+config.h
+*.db
+.DS_Store
